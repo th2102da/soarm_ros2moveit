@@ -1,0 +1,1 @@
+/home/th/soarm101_ros2_moveit/ws/src/soarm101_pick_place/launch/pick_place.launch.py

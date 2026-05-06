@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-ed740e01db5d1d61143e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "so_arm_utils",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_so_arm_utils_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_so_arm_utils_egg-e3e5e199f0bb01f686aa.json",
+					"name" : "ament_cmake_python_build_so_arm_utils_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_so_arm_utils_scripts::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_so_arm_utils_scripts-a1da2206ca571f46f5b8.json",
+					"name" : "ament_cmake_python_build_so_arm_utils_scripts",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_so_arm_utils::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_so_arm_utils-1de33ce5c0304b26208a.json",
+					"name" : "ament_cmake_python_symlink_so_arm_utils",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "so_arm_utils_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-so_arm_utils_uninstall-730f91ab5706c0276dc2.json",
+					"name" : "so_arm_utils_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-2866022d03e3ae3cd102.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/th/soarm101_ros2_moveit/ws/build/so_arm_utils",
+		"source" : "/home/th/soarm101_ros2_moveit/ws/src/ros2_so_arm100/so_arm_utils"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

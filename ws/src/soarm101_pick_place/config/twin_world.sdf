@@ -1,0 +1,117 @@
+<?xml version="1.0" ?>
+<sdf version="1.8">
+  <world name="twin_world">
+    <physics name="1ms" type="bullet">
+      <max_step_size>0.001</max_step_size>
+      <real_time_factor>1.0</real_time_factor>
+    </physics>
+
+    <plugin filename="gz-sim-physics-system" name="gz::sim::systems::Physics"/>
+    <plugin filename="gz-sim-user-commands-system" name="gz::sim::systems::UserCommands"/>
+    <plugin filename="gz-sim-scene-broadcaster-system" name="gz::sim::systems::SceneBroadcaster"/>
+    <plugin filename="gz-sim-contact-system" name="gz::sim::systems::Contact"/>
+
+    <!-- 조명 -->
+    <light type="directional" name="sun">
+      <cast_shadows>true</cast_shadows>
+      <pose>0 0 10 0 0 0</pose>
+      <diffuse>0.8 0.8 0.8 1</diffuse>
+      <specular>0.2 0.2 0.2 1</specular>
+      <direction>-0.5 0.1 -0.9</direction>
+    </light>
+
+    <!-- 바닥 -->
+    <model name="ground_plane">
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry><plane><normal>0 0 1</normal></plane></geometry>
+        </collision>
+        <visual name="visual">
+          <geometry><plane><normal>0 0 1</normal><size>5 5</size></plane></geometry>
+          <material>
+            <ambient>0.8 0.8 0.8 1</ambient>
+            <diffuse>0.8 0.8 0.8 1</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+
+    <!-- 테이블 -->
+    <model name="table">
+      <static>true</static>
+      <pose>0.15 0 -0.01 0 0 0</pose>
+      <link name="link">
+        <collision name="collision">
+          <geometry><box><size>0.35 0.50 0.02</size></box></geometry>
+        </collision>
+        <visual name="visual">
+          <geometry><box><size>0.35 0.50 0.02</size></box></geometry>
+          <material>
+            <ambient>0.55 0.35 0.15 1</ambient>
+            <diffuse>0.55 0.35 0.15 1</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+
+    <!-- 빨간 큐브 -->
+    <model name="red_cube">
+      <pose>0.12 0.05 0.025 0 0 0</pose>
+      <link name="link">
+        <inertial>
+          <mass>0.03</mass>
+          <inertia><ixx>5e-6</ixx><iyy>5e-6</iyy><izz>5e-6</izz></inertia>
+        </inertial>
+        <collision name="c"><geometry><box><size>0.03 0.03 0.03</size></box></geometry>
+          <surface><friction><ode><mu>1</mu><mu2>1</mu2></ode></friction></surface>
+        </collision>
+        <visual name="v"><geometry><box><size>0.03 0.03 0.03</size></box></geometry>
+          <material><ambient>1 0 0 1</ambient><diffuse>1 0 0 1</diffuse></material>
+        </visual>
+      </link>
+    </model>
+
+    <!-- 파란 실린더 -->
+    <model name="blue_cylinder">
+      <pose>0.15 -0.06 0.025 0 0 0</pose>
+      <link name="link">
+        <inertial>
+          <mass>0.03</mass>
+          <inertia><ixx>4e-6</ixx><iyy>4e-6</iyy><izz>3e-6</izz></inertia>
+        </inertial>
+        <collision name="c"><geometry><cylinder><radius>0.015</radius><length>0.04</length></cylinder></geometry>
+          <surface><friction><ode><mu>1</mu><mu2>1</mu2></ode></friction></surface>
+        </collision>
+        <visual name="v"><geometry><cylinder><radius>0.015</radius><length>0.04</length></cylinder></geometry>
+          <material><ambient>0.1 0.1 1 1</ambient><diffuse>0.2 0.2 1 1</diffuse></material>
+        </visual>
+      </link>
+    </model>
+
+    <!-- 초록 큐브 -->
+    <model name="green_cube">
+      <pose>0.20 0.0 0.02 0 0 0</pose>
+      <link name="link">
+        <inertial>
+          <mass>0.02</mass>
+          <inertia><ixx>3e-6</ixx><iyy>3e-6</iyy><izz>3e-6</izz></inertia>
+        </inertial>
+        <collision name="c"><geometry><box><size>0.025 0.025 0.025</size></box></geometry>
+          <surface><friction><ode><mu>1</mu><mu2>1</mu2></ode></friction></surface>
+        </collision>
+        <visual name="v"><geometry><box><size>0.025 0.025 0.025</size></box></geometry>
+          <material><ambient>0 0.8 0 1</ambient><diffuse>0.1 0.9 0.1 1</diffuse></material>
+        </visual>
+      </link>
+    </model>
+
+    <!-- GUI 카메라: 로봇 정면에서 가까이 -->
+    <gui fullscreen="0">
+      <camera name="user_camera">
+        <pose>0.45 -0.35 0.35 0 0.35 2.3</pose>
+      </camera>
+    </gui>
+
+  </world>
+</sdf>

@@ -1,0 +1,20 @@
+[
+{
+  "directory": "/home/th/soarm101_ros2_moveit/ws/build/feetech_ros2_driver/feetech_driver",
+  "command": "/usr/bin/c++ -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -Dserial_port_EXPORTS -I/home/th/soarm101_ros2_moveit/ws/src/feetech_ros2_driver/feetech_driver/include -isystem /usr/share -std=c++20 -fPIC -Wall -Wextra -Wpedantic -Wshadow -Wsign-conversion -Winit-self -Wredundant-decls -Werror -o CMakeFiles/serial_port.dir/src/serial_port.cpp.o -c /home/th/soarm101_ros2_moveit/ws/src/feetech_ros2_driver/feetech_driver/src/serial_port.cpp",
+  "file": "/home/th/soarm101_ros2_moveit/ws/src/feetech_ros2_driver/feetech_driver/src/serial_port.cpp",
+  "output": "feetech_driver/CMakeFiles/serial_port.dir/src/serial_port.cpp.o"
+},
+{
+  "directory": "/home/th/soarm101_ros2_moveit/ws/build/feetech_ros2_driver/feetech_driver",
+  "command": "/usr/bin/c++ -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -Dcommunication_protocol_EXPORTS -I/home/th/soarm101_ros2_moveit/ws/src/feetech_ros2_driver/feetech_driver/include -isystem /usr/share -std=c++20 -fPIC -Wall -Wextra -Wpedantic -Wshadow -Wsign-conversion -Winit-self -Wredundant-decls -Werror -o CMakeFiles/communication_protocol.dir/src/communication_protocol.cpp.o -c /home/th/soarm101_ros2_moveit/ws/src/feetech_ros2_driver/feetech_driver/src/communication_protocol.cpp",
+  "file": "/home/th/soarm101_ros2_moveit/ws/src/feetech_ros2_driver/feetech_driver/src/communication_protocol.cpp",
+  "output": "feetech_driver/CMakeFiles/communication_protocol.dir/src/communication_protocol.cpp.o"
+},
+{
+  "directory": "/home/th/soarm101_ros2_moveit/ws/build/feetech_ros2_driver/feetech_driver",
+  "command": "/usr/bin/c++ -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -I/home/th/soarm101_ros2_moveit/ws/src/feetech_ros2_driver/feetech_driver/include -isystem /usr/share -std=c++20 -Wall -Wextra -Wpedantic -Wshadow -Wsign-conversion -Winit-self -Wredundant-decls -Werror -o CMakeFiles/demo.dir/examples/demo.cpp.o -c /home/th/soarm101_ros2_moveit/ws/src/feetech_ros2_driver/feetech_driver/examples/demo.cpp",
+  "file": "/home/th/soarm101_ros2_moveit/ws/src/feetech_ros2_driver/feetech_driver/examples/demo.cpp",
+  "output": "feetech_driver/CMakeFiles/demo.dir/examples/demo.cpp.o"
+}
+]

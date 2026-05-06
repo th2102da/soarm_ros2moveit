@@ -1,0 +1,48 @@
+Built target ament_cmake_python_symlink_so_arm_utils
+running install_scripts
+running egg_info
+creating so_arm_utils.egg-info
+writing so_arm_utils.egg-info/PKG-INFO
+writing dependency_links to so_arm_utils.egg-info/dependency_links.txt
+writing top-level names to so_arm_utils.egg-info/top_level.txt
+writing manifest file 'so_arm_utils.egg-info/SOURCES.txt'
+running egg_info
+reading manifest file 'so_arm_utils.egg-info/SOURCES.txt'
+writing manifest file 'so_arm_utils.egg-info/SOURCES.txt'
+writing so_arm_utils.egg-info/PKG-INFO
+writing dependency_links to so_arm_utils.egg-info/dependency_links.txt
+writing top-level names to so_arm_utils.egg-info/top_level.txt
+Built target ament_cmake_python_build_so_arm_utils_egg
+reading manifest file 'so_arm_utils.egg-info/SOURCES.txt'
+writing manifest file 'so_arm_utils.egg-info/SOURCES.txt'
+Built target ament_cmake_python_build_so_arm_utils_scripts
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/th/soarm101_ros2_moveit/ws/install/so_arm_utils/share/so_arm_utils/environment/pythonpath.sh
+-- Symlinking: /home/th/soarm101_ros2_moveit/ws/install/so_arm_utils/share/so_arm_utils/environment/pythonpath.dsv
+-- Symlinking: /home/th/soarm101_ros2_moveit/ws/install/so_arm_utils/lib/python3.12/site-packages/so_arm_utils-0.0.0-py3.12.egg-info/PKG-INFO
+-- Symlinking: /home/th/soarm101_ros2_moveit/ws/install/so_arm_utils/lib/python3.12/site-packages/so_arm_utils-0.0.0-py3.12.egg-info/SOURCES.txt
+-- Symlinking: /home/th/soarm101_ros2_moveit/ws/install/so_arm_utils/lib/python3.12/site-packages/so_arm_utils-0.0.0-py3.12.egg-info/dependency_links.txt
+-- Symlinking: /home/th/soarm101_ros2_moveit/ws/install/so_arm_utils/lib/python3.12/site-packages/so_arm_utils-0.0.0-py3.12.egg-info/top_level.txt
+-- Symlinking: /home/th/soarm101_ros2_moveit/ws/install/so_arm_utils/lib/python3.12/site-packages/so_arm_utils/__init__.py
+-- Symlinking: /home/th/soarm101_ros2_moveit/ws/install/so_arm_utils/lib/python3.12/site-packages/so_arm_utils/constants.py
+-- Symlinking: /home/th/soarm101_ros2_moveit/ws/install/so_arm_utils/lib/python3.12/site-packages/so_arm_utils/launch_utils.py
+-- Symlinking: /home/th/soarm101_ros2_moveit/ws/install/so_arm_utils/share/ament_index/resource_index/package_run_dependencies/so_arm_utils
+-- Symlinking: /home/th/soarm101_ros2_moveit/ws/install/so_arm_utils/share/ament_index/resource_index/parent_prefix_path/so_arm_utils
+-- Symlinking: /home/th/soarm101_ros2_moveit/ws/install/so_arm_utils/share/so_arm_utils/environment/ament_prefix_path.sh
+-- Symlinking: /home/th/soarm101_ros2_moveit/ws/install/so_arm_utils/share/so_arm_utils/environment/ament_prefix_path.dsv
+-- Symlinking: /home/th/soarm101_ros2_moveit/ws/install/so_arm_utils/share/so_arm_utils/environment/path.sh
+-- Symlinking: /home/th/soarm101_ros2_moveit/ws/install/so_arm_utils/share/so_arm_utils/environment/path.dsv
+-- Symlinking: /home/th/soarm101_ros2_moveit/ws/install/so_arm_utils/share/so_arm_utils/local_setup.bash
+-- Symlinking: /home/th/soarm101_ros2_moveit/ws/install/so_arm_utils/share/so_arm_utils/local_setup.sh
+-- Symlinking: /home/th/soarm101_ros2_moveit/ws/install/so_arm_utils/share/so_arm_utils/local_setup.zsh
+-- Symlinking: /home/th/soarm101_ros2_moveit/ws/install/so_arm_utils/share/so_arm_utils/local_setup.dsv
+-- Symlinking: /home/th/soarm101_ros2_moveit/ws/install/so_arm_utils/share/so_arm_utils/package.dsv
+-- Symlinking: /home/th/soarm101_ros2_moveit/ws/install/so_arm_utils/share/ament_index/resource_index/packages/so_arm_utils
+-- Symlinking: /home/th/soarm101_ros2_moveit/ws/install/so_arm_utils/share/so_arm_utils/cmake/so_arm_utilsConfig.cmake
+-- Symlinking: /home/th/soarm101_ros2_moveit/ws/install/so_arm_utils/share/so_arm_utils/cmake/so_arm_utilsConfig-version.cmake
+-- Symlinking: /home/th/soarm101_ros2_moveit/ws/install/so_arm_utils/share/so_arm_utils/package.xml
+Listing '/home/th/soarm101_ros2_moveit/ws/install/so_arm_utils/lib/python3.12/site-packages/so_arm_utils'...
+Compiling '/home/th/soarm101_ros2_moveit/ws/install/so_arm_utils/lib/python3.12/site-packages/so_arm_utils/__init__.py'...
+Compiling '/home/th/soarm101_ros2_moveit/ws/install/so_arm_utils/lib/python3.12/site-packages/so_arm_utils/constants.py'...
+Compiling '/home/th/soarm101_ros2_moveit/ws/install/so_arm_utils/lib/python3.12/site-packages/so_arm_utils/launch_utils.py'...

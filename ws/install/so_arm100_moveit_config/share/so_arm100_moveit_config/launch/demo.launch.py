@@ -1,0 +1,1 @@
+/home/th/soarm101_ros2_moveit/ws/src/ros2_so_arm100/so_arm100_moveit_config/launch/demo.launch.py

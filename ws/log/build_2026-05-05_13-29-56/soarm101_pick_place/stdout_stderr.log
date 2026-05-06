@@ -1,0 +1,43 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done (0.5s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/th/soarm101_ros2_moveit/ws/build/soarm101_pick_place
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/th/soarm101_ros2_moveit/ws/install/soarm101_pick_place/share/soarm101_pick_place/config/cam_to_robot.yaml
+-- Symlinking: /home/th/soarm101_ros2_moveit/ws/install/soarm101_pick_place/share/soarm101_pick_place/config/camera_intrinsics.yaml
+-- Symlinking: /home/th/soarm101_ros2_moveit/ws/install/soarm101_pick_place/share/soarm101_pick_place/launch/camera_aruco.launch.py
+-- Symlinking: /home/th/soarm101_ros2_moveit/ws/install/soarm101_pick_place/share/soarm101_pick_place/launch/pick_place.launch.py
+-- Symlinking: /home/th/soarm101_ros2_moveit/ws/install/soarm101_pick_place/lib/soarm101_pick_place/camera_bridge_node.py
+-- Symlinking: /home/th/soarm101_ros2_moveit/ws/install/soarm101_pick_place/lib/soarm101_pick_place/aruco_detector_node.py
+-- Symlinking: /home/th/soarm101_ros2_moveit/ws/install/soarm101_pick_place/lib/soarm101_pick_place/pick_place_node.py
+-- Symlinking: /home/th/soarm101_ros2_moveit/ws/install/soarm101_pick_place/lib/soarm101_pick_place/calibrate_hand_eye_node.py
+-- Symlinking: /home/th/soarm101_ros2_moveit/ws/install/soarm101_pick_place/share/ament_index/resource_index/package_run_dependencies/soarm101_pick_place
+-- Symlinking: /home/th/soarm101_ros2_moveit/ws/install/soarm101_pick_place/share/ament_index/resource_index/parent_prefix_path/soarm101_pick_place
+-- Symlinking: /home/th/soarm101_ros2_moveit/ws/install/soarm101_pick_place/share/soarm101_pick_place/environment/ament_prefix_path.sh
+-- Symlinking: /home/th/soarm101_ros2_moveit/ws/install/soarm101_pick_place/share/soarm101_pick_place/environment/ament_prefix_path.dsv
+-- Symlinking: /home/th/soarm101_ros2_moveit/ws/install/soarm101_pick_place/share/soarm101_pick_place/environment/path.sh
+-- Symlinking: /home/th/soarm101_ros2_moveit/ws/install/soarm101_pick_place/share/soarm101_pick_place/environment/path.dsv
+-- Symlinking: /home/th/soarm101_ros2_moveit/ws/install/soarm101_pick_place/share/soarm101_pick_place/local_setup.bash
+-- Symlinking: /home/th/soarm101_ros2_moveit/ws/install/soarm101_pick_place/share/soarm101_pick_place/local_setup.sh
+-- Symlinking: /home/th/soarm101_ros2_moveit/ws/install/soarm101_pick_place/share/soarm101_pick_place/local_setup.zsh
+-- Symlinking: /home/th/soarm101_ros2_moveit/ws/install/soarm101_pick_place/share/soarm101_pick_place/local_setup.dsv
+-- Symlinking: /home/th/soarm101_ros2_moveit/ws/install/soarm101_pick_place/share/soarm101_pick_place/package.dsv
+-- Symlinking: /home/th/soarm101_ros2_moveit/ws/install/soarm101_pick_place/share/ament_index/resource_index/packages/soarm101_pick_place
+-- Symlinking: /home/th/soarm101_ros2_moveit/ws/install/soarm101_pick_place/share/soarm101_pick_place/cmake/soarm101_pick_placeConfig.cmake
+-- Symlinking: /home/th/soarm101_ros2_moveit/ws/install/soarm101_pick_place/share/soarm101_pick_place/cmake/soarm101_pick_placeConfig-version.cmake
+-- Symlinking: /home/th/soarm101_ros2_moveit/ws/install/soarm101_pick_place/share/soarm101_pick_place/package.xml

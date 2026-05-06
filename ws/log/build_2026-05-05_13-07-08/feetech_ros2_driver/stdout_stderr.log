@@ -1,0 +1,33 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+CMake Error at feetech_driver/CMakeLists.txt:36 (find_package):
+  By not providing "Findrange-v3.cmake" in CMAKE_MODULE_PATH this project has
+  asked CMake to find a package configuration file provided by "range-v3",
+  but CMake did not find one.
+
+  Could not find a package configuration file provided by "range-v3" with any
+  of the following names:
+
+    range-v3Config.cmake
+    range-v3-config.cmake
+
+  Add the installation prefix of "range-v3" to CMAKE_PREFIX_PATH or set
+  "range-v3_DIR" to a directory containing one of the above files.  If
+  "range-v3" provides a separate development package or SDK, be sure it has
+  been installed.
+
+
+-- Configuring incomplete, errors occurred!

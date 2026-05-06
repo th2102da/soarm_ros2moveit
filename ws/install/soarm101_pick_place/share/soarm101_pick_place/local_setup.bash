@@ -1,0 +1,1 @@
+/home/th/soarm101_ros2_moveit/ws/build/soarm101_pick_place/ament_cmake_environment_hooks/local_setup.bash
