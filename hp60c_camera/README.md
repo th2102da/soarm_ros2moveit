@@ -42,6 +42,7 @@ hp60c_camera/
 │   ├── CMakeLists.txt
 │   ├── shm_bridge.cpp
 │   └── build.sh
+├── sdk/                  # 번들된 Angstrong HP60C SDK (libs + configurationfiles)
 ├── hp60c_camera/         # Python 패키지 (SHM -> numpy)
 │   ├── __init__.py
 │   └── reader.py
@@ -58,23 +59,15 @@ hp60c_camera/
 
 ## 사전 준비
 
-### 1. Angstrong HP60C SDK 다운로드
+### 1. SDK
 
-라이선스 문제로 이 저장소에는 SDK가 포함되어 있지 않습니다. 별도 경로(예: `~/hp60c_sdk/`)에
-SDK 원본을 풀어두면 다음 구조가 있어야 합니다:
+저장소의 `sdk/` 디렉토리에 Angstrong HP60C SDK가 함께 들어있습니다 (헤더 +
+x86_64 / aarch64 / armv7 .so + configurationfiles). **별도 다운로드 불필요.**
 
-```
-hp60c_sdk/linux_ros/linux/
-├── libs/
-│   ├── include/                 (as_camera_sdk_api.h, as_camera_sdk_def.h ...)
-│   └── lib/x86_64-linux-gnu/libAngstrongCameraSdk.so
-└── configurationfiles/          (hp60c_*.cfg / vega_*.cfg)
-```
-
-환경변수로 알려줍니다:
+다른 SDK 버전을 쓰고 싶다면 환경변수로 덮어쓸 수 있습니다:
 
 ```bash
-export HP60C_SDK_DIR=$HOME/hp60c_sdk/linux_ros/linux
+export HP60C_SDK_DIR=/path/to/hp60c_sdk/linux_ros/linux
 ```
 
 ### 2. shm_bridge 빌드 (C++)
@@ -84,6 +77,8 @@ cd bridge
 ./build.sh
 # -> bridge/build/shm_bridge 생성
 ```
+
+호스트 아키텍처(x86_64 / aarch64 / armv7)는 자동 인식됩니다.
 
 ### 3. Python 의존성
 
@@ -132,5 +127,7 @@ with CameraReader() as cam:
 
 ## 라이선스
 
-이 저장소의 코드는 MIT 라이선스. **HP60C SDK 본체는 포함되어 있지 않으며 Angstrong 의 라이선스를
-따릅니다.**
+이 저장소의 우리 코드(bridge, hp60c_camera 패키지, examples)는 MIT 라이선스.
+**`sdk/` 아래 파일들은 Angstrong 소유로, 해당 회사의 라이선스를 따릅니다.**
+이 저장소가 private 인 동안에만 함께 들어있다고 보세요. 공개 fork 시에는 `sdk/` 를 제외해야
+할 수 있습니다.

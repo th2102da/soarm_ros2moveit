@@ -12,9 +12,10 @@
   로 OpenCamera 가 실패하면 stream 이 시작 안 됨.
 
 ## bridge 빌드 시 `as_camera_sdk_api.h` 못 찾음
-- `HP60C_SDK_DIR` 이 `linux_ros/linux` 까지 들어가 있어야 한다 (그 아래 `libs/include/`).
-- `echo $HP60C_SDK_DIR` 후 `ls $HP60C_SDK_DIR/libs/include/as_camera_sdk_api.h` 가
-  파일을 보여줘야 통과.
+- 기본값은 저장소의 `sdk/` 디렉토리. 그 아래 `libs/include/as_camera_sdk_api.h` 가
+  실제로 있는지 확인 (`ls hp60c_camera/sdk/libs/include/`).
+- 별도 SDK 경로를 쓴다면 `HP60C_SDK_DIR` 이 `linux_ros/linux` 까지 들어가 있어야 한다
+  (그 아래 `libs/include/`).
 
 ## bridge 실행 시 `libAngstrongCameraSdk.so: cannot open shared object file`
 - `start_bridge.sh` 는 `LD_LIBRARY_PATH` 에 SDK lib 디렉토리를 추가해 실행한다. 직접 실행
