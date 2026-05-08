@@ -1,1 +1,0 @@
-rclpy;sensor_msgs;geometry_msgs;std_msgs;tf2_ros;cv_bridge;moveit_msgs;moveit_ros_planning_interface;so_arm101_moveit_config

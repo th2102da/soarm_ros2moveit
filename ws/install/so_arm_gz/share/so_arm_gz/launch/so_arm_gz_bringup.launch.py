@@ -1,1 +1,0 @@
-/home/th/soarm101_ros2_moveit/ws/src/ros2_so_arm100/so_arm_gz/launch/so_arm_gz_bringup.launch.py

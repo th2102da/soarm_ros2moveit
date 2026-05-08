@@ -1,1 +1,0 @@
-rclcpp;hardware_interface;pluginlib;tl_expected;spdlog;fmt;range-v3;pkg-config;libserial-dev

@@ -1,1 +1,0 @@
-/home/th/soarm101_ros2_moveit/ws/build/so_arm100_description/ament_cmake_environment_hooks/local_setup.sh

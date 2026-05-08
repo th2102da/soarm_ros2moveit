@@ -1,1 +1,0 @@
-/home/th/soarm101_ros2_moveit/ws/build/so_arm101_description/ament_cmake_core/so_arm101_descriptionConfig.cmake

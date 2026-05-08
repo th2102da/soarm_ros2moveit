@@ -1,1 +1,0 @@
-/home/th/soarm101_ros2_moveit/ws/src/soarm101_pick_place/soarm101_pick_place/pick_place_node.py

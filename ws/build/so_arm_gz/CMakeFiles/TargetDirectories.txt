@@ -1,9 +1,0 @@
-/home/th/soarm101_ros2_moveit/ws/build/so_arm_gz/CMakeFiles/uninstall.dir
-/home/th/soarm101_ros2_moveit/ws/build/so_arm_gz/CMakeFiles/so_arm_gz_uninstall.dir
-/home/th/soarm101_ros2_moveit/ws/build/so_arm_gz/CMakeFiles/test.dir
-/home/th/soarm101_ros2_moveit/ws/build/so_arm_gz/CMakeFiles/edit_cache.dir
-/home/th/soarm101_ros2_moveit/ws/build/so_arm_gz/CMakeFiles/rebuild_cache.dir
-/home/th/soarm101_ros2_moveit/ws/build/so_arm_gz/CMakeFiles/list_install_components.dir
-/home/th/soarm101_ros2_moveit/ws/build/so_arm_gz/CMakeFiles/install.dir
-/home/th/soarm101_ros2_moveit/ws/build/so_arm_gz/CMakeFiles/install/local.dir
-/home/th/soarm101_ros2_moveit/ws/build/so_arm_gz/CMakeFiles/install/strip.dir

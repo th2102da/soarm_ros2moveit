@@ -81,14 +81,14 @@ class CameraBridgeNode(Node):
             if self.shm_mm is None:
                 return
 
-        # Read header
-        header_data = self.shm_mm[:HEADER_SIZE]
+        # Read header — struct is 56 bytes, allocated region padded to HEADER_SIZE (64).
+        # Slice exactly to the format size to avoid struct.unpack size-mismatch.
         (
             magic, rgb_w, rgb_h, rgb_size,
             depth_w, depth_h, depth_size, _pad,
             frame_id, timestamp_us,
             rgb_ready, depth_ready,
-        ) = struct.unpack("<IIIIIIII QQ II", header_data)
+        ) = struct.unpack_from("<IIIIIIII QQ II", self.shm_mm, 0)
 
         if magic != MAGIC:
             return

@@ -1,1 +1,0 @@
-/home/th/soarm101_ros2_moveit/ws/build/so_arm_utils/ament_cmake_core/so_arm_utilsConfig-version.cmake
